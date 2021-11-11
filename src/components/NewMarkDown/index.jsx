@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import './markdown.css';
 
 function MarkDown() {
-    const [marker, setMarker] = useState("Welcome to Markdown Editor");
+    const [marker, setMarker] = useState("Welcome to Markdown Editor testing");
     const dispatch = useDispatch();
     const { title, para } = useSelector((state) => state);
     const search = () => {
