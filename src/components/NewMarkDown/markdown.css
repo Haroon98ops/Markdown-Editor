@@ -1,0 +1,36 @@
+.main {
+    background-color: #f2f2f2;
+    padding: 55px 75px;
+    min-height: 100vh;
+}
+.bg-ea {
+    background-color: #eaeaea;
+}
+.content-box {
+    display: flex;
+    column-gap: 10px;
+    background-color: #eaeaea;
+}
+.markdown-box {
+    flex: 1;
+}
+.text-area {
+    border: none;
+    height: 60vh;
+    width: 100%;
+}
+.markdown-css {
+    background-color: white;
+    height: 60vh;
+}
+.p-10 {
+    padding: 10px;
+}
+.m-0 {
+    margin: 0;
+}
+.result-box {
+    background-color: white;
+    padding: 27px;
+    text-align: justify;
+}
